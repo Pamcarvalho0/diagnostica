@@ -13,6 +13,7 @@ for (let i = 0; i < notas.length; i++) {
             notas[j + 1] = tempNota;
 
             
+            
             let tempNome = nomes[j];
             nomes[j] = nomes[j + 1];
             nomes[j + 1] = tempNome;
